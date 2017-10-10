@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.educationalapp.Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "INSTRUCTIONS:"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "1. Answer all questions."
+        android:textSize="20dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "2. Provide only one answer."
+        android:textSize="19dp"
+        android:layout_marginTop="55dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Sit back, Relax and Enjoy the App."
+        android:textSize="20dp"
+        android:layout_marginTop="77dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        android:background="#0d47a1"
+        android:layout_marginTop="105dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUESTIONS"
+        android:layout_marginTop="123dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "1. What type of information is of a Surveyors' interest?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Spatial"
+        android:textStyle="bold"
+        android:layout_marginTop="185dp"
+        android:id = "@+id/R_button1"
+        android:onClick="Question_One"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Special"
+        android:textStyle="bold"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="120dp"
+        android:id = "@+id/R_button2"
+        android:onClick="Question_One"/>
+
+        </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "2. A surveyor is also a geodesist?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "True"
+        android:textStyle="bold"
+        android:layout_marginTop="235dp"
+        android:id = "@+id/R_button3"
+        android:onClick="Question_Two"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "False"
+        android:textStyle="bold"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="135dp"
+        android:id = "@+id/R_button4"
+        android:onClick="Question_Two"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "3. Photogrammetry is a branch of Surveying?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "True"
+        android:textStyle="bold"
+        android:layout_marginTop="285dp"
+        android:id = "@+id/R_button5"
+        android:onClick="Question_Three"/>
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "False"
+        android:textStyle="bold"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="136dp"
+        android:id = "@+id/R_button6"
+        android:onClick="Question_Three"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "4. A mathematical model representing the physical earth?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="320dp"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Geoid"
+        android:textStyle="bold"
+        android:layout_marginTop="355dp"
+        android:id = "@+id/R_button7"
+        android:onClick="Question_Four"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Ellipsoid"
+        android:textStyle="bold"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="131dp"
+        android:id = "@+id/R_button8"
+        android:onClick="Question_Four"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "5. Errors inevitable in survey measurements?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="390dp"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Systematic"
+        android:textStyle="bold"
+        android:layout_marginTop="405dp"
+        android:id = "@+id/R_button9"
+        android:onClick="Question_Five"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Random"
+        android:textStyle="bold"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="100dp"
+        android:id = "@+id/R_button10"
+        android:onClick="Question_Five"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:text = "BACK"
+        android:textStyle="bold"
+        android:onClick="Back_Button"/>
+
+
+
+
+
+</RelativeLayout>
