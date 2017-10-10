@@ -7,7 +7,7 @@ When the app is tapped, the MainActivity pops up with a button of which when cli
 This Second Activity contains the questions and the options to be chosen by the user in a radiobutton arranged inside a radio-group. 
 Upon selection of an option by the user, the answer to the question is displayed in a toast message.
 
-** NOTE: **
-The app is still under construction as more modifications is to be made. The sole aim of this app is to enhance the educational system in the Surveying Community through technology and so therefore, persons pulling this source codes are encouraged to achieve the stated aim.
+NOTE: 
+The app is still under construction as more modifications is to be made. The sole aim of this app is to enhance the educational system in the Surveying Community through technology and so therefore, persons pulling this source code are encouraged to achieve the stated aim.
 
-** Let's contribute and build the Surveying Community together.Cheers! ** 
+**Let's contribute and build the Surveying Community together.Cheers!** 
